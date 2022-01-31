@@ -58,6 +58,24 @@ cargo test robot
 ```
 cargo test -- --test-threads 1
 ```
+## Create documentation
+Create doc
+```
+cargo doc
+```
+View doc on local page
+```
+cargo doc --open
+```
+For publishing you need to create api key on [crates.io](https://crates.io/) then login <br />
+More information about publishing read in [doc](https://doc.rust-lang.org/cargo/reference/publishing.html)
+```
+cargo login <api_key>
+```
+Publishin
+```
+cargo publish
+```
 ## Call functions
 ```
 near call $CONTRACT_NAME turn_right '{}' --accountId $CLIENT_ID
