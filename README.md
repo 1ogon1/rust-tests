@@ -1,5 +1,9 @@
 # Rust tests
 
+## CLI installation
+
+You can install cli via this [tutorial](https://docs.near.org/docs/tools/near-cli#installation).
+
 ## Getting started 
 
 For creating the new account for deploying contract use next command
